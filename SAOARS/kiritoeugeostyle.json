@@ -1,0 +1,120 @@
+{
+    "enddateUTC": "2019-12-16-05-59",
+    "info": {
+        "type": "pickup",
+        "apcost": 16,
+        "reward": 70
+    },
+    "items": {
+        "[See You in My Dreams] Ronie": {
+            "quantity": 1,
+            "left": 0,
+            "target": 0,
+            "cost": 100
+        },
+        "Female Primary Trainee Dorm - Night": {
+            "quantity": 1,
+            "left": 0,
+            "target": 0,
+            "cost": 30
+        },
+        "Rose": {
+            "quantity": 1,
+            "left": 0,
+            "target": 0,
+            "cost": 150
+        },
+        "Gem Shard": {
+            "quantity": 5,
+            "left": 5,
+            "target": 0,
+            "cost": 200
+        },
+        "Evolution Crystal Gemstone": {
+            "quantity": 10,
+            "left": 0,
+            "target": 0,
+            "cost": 100
+        },
+        "AP Recovery Bread 50": {
+            "quantity": 1,
+            "left": 30,
+            "target": 30,
+            "cost": 30
+        },
+        "Shia": {
+            "quantity": 1000,
+            "left": 30,
+            "target": 30,
+            "cost": 30
+        },
+        "BP Recovery Medicine 1": {
+            "quantity": 1,
+            "left": 30,
+            "target": 30,
+            "cost": 30
+        },
+        "Attempts Recovery Ticket": {
+            "quantity": 1,
+            "left": 10,
+            "target": 10,
+            "cost": 30
+        },
+        "Shia Boost x2": {
+            "quantity": 3,
+            "left": 10,
+            "target": 10,
+            "cost": 30
+        },
+        "EXP Boost x2": {
+            "quantity": 3,
+            "left": 10,
+            "target": 10,
+            "cost": 30
+        },
+        "Item Boost x2": {
+            "quantity": 3,
+            "left": 10,
+            "target": 0,
+            "cost": 30
+        }
+    },
+    "elemental-items": {
+        "Sacred Arts Manual": {
+            "quantity": 1,
+            "left": [0, 2, 2, 2, 2, 0, 2],
+            "target": [0, 2, 0, 2, 0, 0, 0],
+            "cost": 40
+        },
+        "Flower": {
+            "quantity": 10,
+            "left": [8, 8, 8, 8, 8, 8, 8],
+            "target": [8, 8, 8, 8, 8, 8, 8],
+            "cost": 30
+        },
+        "Bud": {
+            "quantity": 10,
+            "left": [20, 20, 20, 20, 20, 20, 20],
+            "target": [20, 20, 20, 20, 20, 20, 20],
+            "cost": 20
+        },
+        "Seed": {
+            "quantity": 10,
+            "left": [35, 35, 35, 35, 35, 35, 35],
+            "target": [35, 35, 35, 35, 35, 35, 35],
+            "cost": 10
+        },
+        "EXP Blessing": {
+            "quantity": 1,
+            "left": [10, 10, 10, 10, 10, 10, 10],
+            "target": [10, 10, 10, 10, 10, 10, 10],
+            "cost": 20
+        },
+        "EXP Holy Water": {
+            "quantity": 1,
+            "left": [20, 20, 20, 20, 20, 20, 20],
+            "target": [20, 20, 20, 20, 20, 20, 20],
+            "cost": 10
+        }
+    }
+}

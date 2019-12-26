@@ -1,0 +1,15 @@
+{
+    "enddateUTC": "2019-12-24-05-59",
+    "info": {
+        "type": "assault"
+    },
+    "items": {
+        "Golden Yellow Knight Armor R4": {
+            "quantity": 1,
+            "left": 9,
+            "target": 9,
+            "cost": 10
+        }
+    },
+    "elemental-items": {}
+}

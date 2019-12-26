@@ -1,9 +1,10 @@
 class node:
     def __init__(self, nodetype, memory, info, pos):
         """ Nodetypes:
-        Transmitter - [0, 0]
-        Receiver - [x, y]
-        Tranceiver - [x, y]
+        Transmitter - Ch. 1
+        Receiver - Ch. 1
+        Tranceiver - Ch. 2
+        Broadcast - Ch. 4
         """
         self.type = nodetype
 
@@ -15,7 +16,7 @@ class node:
         self.memory = memory
 
         """ Info:
-        How much info is on the node
+        How much info is currently on the node
         """
         self.info = info
 

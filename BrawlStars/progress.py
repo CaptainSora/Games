@@ -7,6 +7,7 @@ from datetime import date, timedelta
 #         0  1   2   3   4    5    6    7    8     9  10
 POINTS = [0, 20, 30, 50, 80,  130, 210, 340, 550,  0, 0]
 COINS = [00, 20, 35, 75, 140, 290, 480, 800, 1250, 0, 0]
+TOTAL_BRAWLERS = 31  # May need updating
 
 
 def is_max(brawler):
@@ -292,7 +293,6 @@ def brawlerdata(player, b_data):
     """
     # Calculate values
     brawlers_owned = len(player.brawlers)
-    total_brawlers = 30  # May need updating
     need_pts = len([b for b in b_data if not is_max(b_data[b])])
     no_pts_brawlers = [
         b for b in b_data if b_data[b]['power'] < 9 and is_max(b_data[b])]
@@ -310,7 +310,7 @@ def brawlerdata(player, b_data):
     ]
 
     # Brawler data
-    print(f"You currently have {brawlers_owned}/{total_brawlers} brawlers.")
+    print(f"You currently have {brawlers_owned}/{TOTAL_BRAWLERS} brawlers.")
     print(f"You still need power points for {need_pts} brawlers.")
     print(
         f"You currently have {len(p10_brawlers)} brawlers at Power 10: " +
@@ -418,4 +418,4 @@ def playertags(player=None):
 
 
 print(playertags())
-playerdata("JQU8YOOR")
+playerdata(playertags(0))

@@ -1,0 +1,114 @@
+{
+    "enddateUTC": "2019-12-18-05-59",
+    "info": {
+        "type": "ordinal",
+        "w_reward": 210,
+        "l_reward": 50
+    },
+    "items": {
+        "[A Knight's Resolve] Alice Evolution Crystal": {
+            "quantity": 25,
+            "left": 0,
+            "target": 0,
+            "cost": 1500
+        },
+        "Almighty Evolution Crystal": {
+            "quantity": 25,
+            "left": 2,
+            "target": 0,
+            "cost": 1500
+        },
+        "Evolution Crystal Gemstone": {
+            "quantity": 10,
+            "left": 20,
+            "target": 20,
+            "cost": 2400
+        },
+        "Rose": {
+            "quantity": 1,
+            "left": 1,
+            "target": 0,
+            "cost": 700
+        },
+        "AP Recovery Bread 50": {
+            "quantity": 1,
+            "left": 30,
+            "target": 30,
+            "cost": 200
+        },
+        "BP Recovery Medicine 1": {
+            "quantity": 1,
+            "left": 30,
+            "target": 30,
+            "cost": 200
+        },
+        "Attempts Recovery Ticket": {
+            "quantity": 1,
+            "left": 10,
+            "target": 10,
+            "cost": 200
+        },
+        "Shia Boost x2": {
+            "quantity": 3,
+            "left": 10,
+            "target": 10,
+            "cost": 200
+        },
+        "EXP Boost x2": {
+            "quantity": 3,
+            "left": 10,
+            "target": 0,
+            "cost": 200
+        },
+        "Item Boost x2": {
+            "quantity": 3,
+            "left": 10,
+            "target": 10,
+            "cost": 200
+        },
+        "Shia": {
+            "quantity": 1000,
+            "left": 30,
+            "target": 30,
+            "cost": 100
+        }
+    },
+    "elemental-items": {
+        "Sacred Arts Manual": {
+            "quantity": 1,
+            "left": [2, 2, 2, 2, 2, 2, 2],
+            "target": [0, 2, 0, 2, 0, 0, 0],
+            "cost": 500
+        },
+        "Flower": {
+            "quantity": 10,
+            "left": [8, 8, 8, 8, 8, 8, 8],
+            "target": [8, 8, 8, 8, 8, 8, 8],
+            "cost": 200
+        },
+        "Bud": {
+            "quantity": 10,
+            "left": [20, 20, 20, 20, 20, 20, 20],
+            "target": [20, 20, 20, 20, 20, 20, 20],
+            "cost": 150
+        },
+        "Seed": {
+            "quantity": 10,
+            "left": [35, 35, 35, 35, 35, 35, 35],
+            "target": [35, 35, 35, 35, 35, 35, 35],
+            "cost": 100
+        },
+        "EXP Blessing": {
+            "quantity": 1,
+            "left": [10, 10, 10, 10, 10, 10, 10],
+            "target": [10, 10, 10, 10, 10, 10, 10],
+            "cost": 150
+        },
+        "EXP Holy Water": {
+            "quantity": 1,
+            "left": [20, 20, 20, 20, 20, 20, 20],
+            "target": [20, 20, 20, 20, 20, 20, 20],
+            "cost": 100
+        }
+    }
+}
