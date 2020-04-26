@@ -7,7 +7,7 @@ from datetime import date, timedelta
 #         0  1   2   3   4    5    6    7    8     9  10
 POINTS = [0, 20, 30, 50, 80,  130, 210, 340, 550,  0, 0]
 COINS = [00, 20, 35, 75, 140, 290, 480, 800, 1250, 0, 0]
-TOTAL_BRAWLERS = 31  # May need updating
+TOTAL_BRAWLERS = 35  # May need updating
 
 
 def is_max(brawler):
@@ -58,7 +58,7 @@ def connect():
 
     # Initialize connection with Brawl Stars API
     print("Connecting to Brawl Stars API...")
-    client = brawlstats.OfficialAPI(token)
+    client = brawlstats.Client(token)
     print("Connected!")
     return client
 
@@ -251,24 +251,40 @@ def season_reset(b_data, output='print'):
     Optionally prints and returns some relevant information on the season
     reset.
     """
-    SP_FLOOR = 550
-    SP_CEIL = 1400
     trophy_loss = 0
     star_points = 0
     brawlers_loss = 0
+    RESETDATA = [
+        [550, 525, 70],
+        [600, 575, 120],
+        [650, 625, 160],
+        [700, 650, 200],
+        [750, 700, 220],
+        [800, 750, 240],
+        [850, 775, 260],
+        [900, 825, 280],
+        [950, 875, 300],
+        [1000, 900, 320],
+        [1050, 925, 340],
+        [1100, 950, 360],
+        [1150, 975, 380],
+        [1200, 1000, 400],
+        [1250, 1025, 420],
+        [1300, 1050, 440],
+        [1350, 1075, 460],
+        [1400, 1100, 480],
+        [10000, 0, 0]
+    ]
     for b in b_data:
         trophies = b_data[b]['trophies']
-        sp_adjust = [0, 50, 80, 100, 120]
-        if trophies < SP_FLOOR:
+        if trophies < RESETDATA[0][0]:
             continue
-        elif trophies >= SP_CEIL:
-            trophy_loss += trophies - 950
-            star_points += 480
-            continue
-        trophy_tier = ceil((trophies - SP_FLOOR + 1) / 50)
-        trophy_loss += trophies % 50 + trophy_tier * 25
-        star_points += trophy_tier * 20 + sp_adjust[min(trophy_tier, 4)]
-        brawlers_loss += 1
+        for r in range(len(RESETDATA)):
+            if trophies < RESETDATA[r][0]:
+                trophy_loss += trophies - RESETDATA[r-1][1]
+                star_points += RESETDATA[r-1][2]
+                brawlers_loss += 1
+                break
     if output == 'print':
         print(
             f"At the end of the season, you will lose {trophy_loss} trophies" +
@@ -296,6 +312,7 @@ def brawlerdata(player, b_data):
     need_pts = len([b for b in b_data if not is_max(b_data[b])])
     no_pts_brawlers = [
         b for b in b_data if b_data[b]['power'] < 9 and is_max(b_data[b])]
+    p7_brawlers = [b for b in b_data if b_data[b]['power'] >= 7] # for gadgets
     p9_brawlers = [b for b in b_data if b_data[b]['power'] >= 9]
     p10_brawlers = [b for b in b_data if b_data[b]['power'] == 10]
     p10sp2_brawlers = [b for b in b_data if b_data[b]['nSP'] == 2]
@@ -418,4 +435,4 @@ def playertags(player=None):
 
 
 print(playertags())
-playerdata(playertags(0))
+playerdata(playertags(1))
