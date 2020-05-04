@@ -12,7 +12,7 @@ TOTAL_BRAWLERS = 35  # May need updating
 
 def is_max(brawler):
     """ Checks if this is a maxed brawler. """
-    return (sum(POINTS[brawler['power']:10]) == brawler['points'])
+    return (sum(POINTS[brawler['power']:10]) <= brawler['points'])
 
 
 def upgradable(brawler):
@@ -130,6 +130,7 @@ def update(playertag, player=None):
         # Power points (manual)
         if is_max(brawler):
             print(f"{name} is maxed")
+            brawler['points'] = sum(POINTS[brawler['power']:10])
         else:
             num_input(
                 f"{name}: {brawler['points']}/{POINTS[power]} -> ",
@@ -435,4 +436,4 @@ def playertags(player=None):
 
 
 print(playertags())
-playerdata(playertags(1))
+playerdata(playertags(0))
