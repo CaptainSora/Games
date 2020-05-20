@@ -239,12 +239,6 @@ def find_probability_grid(animal_list, validboards):
         len([b.squares[i] for b in validboards if b.squares[i] > 0])
         for i in range(25)
     ]
-    # prob_grid = [0] * 25
-    # for b in validboards:
-    #     for i in range(25):
-    #         if b.squares[i] > 0:
-    #             prob_grid[i] += 1
-    # return prob_grid
 
 
 def find_variance_grid(animal_list, validboards):
