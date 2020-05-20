@@ -1,0 +1,808 @@
+{
+    "UULVQY2L": {
+        "ign": "CapSora",
+        "coins": 96,
+        "starpoints": 13695,
+        "points_to_go": 1671,
+        "coins_needed": 21140,
+        "coins_to_go": 25350,
+        "last_updated": "2020-05-13",
+        "brawlers": {
+            "SHELLY": {
+                "points": 0,
+                "power": 10,
+                "nSP": 2,
+                "trophies": 575
+            },
+            "COLT": {
+                "points": 0,
+                "power": 10,
+                "nSP": 2,
+                "trophies": 531
+            },
+            "BULL": {
+                "points": 890,
+                "power": 7,
+                "nSP": 0,
+                "trophies": 555
+            },
+            "BROCK": {
+                "points": 0,
+                "power": 10,
+                "nSP": 1,
+                "trophies": 553
+            },
+            "RICO": {
+                "points": 0,
+                "power": 9,
+                "nSP": 0,
+                "trophies": 525
+            },
+            "BARLEY": {
+                "points": 0,
+                "power": 10,
+                "nSP": 2,
+                "trophies": 533
+            },
+            "JESSIE": {
+                "points": 0,
+                "power": 10,
+                "nSP": 2,
+                "trophies": 533
+            },
+            "NITA": {
+                "points": 0,
+                "power": 10,
+                "nSP": 2,
+                "trophies": 610
+            },
+            "DYNAMIKE": {
+                "points": 0,
+                "power": 10,
+                "nSP": 2,
+                "trophies": 551
+            },
+            "EL PRIMO": {
+                "points": 0,
+                "power": 10,
+                "nSP": 1,
+                "trophies": 625
+            },
+            "CROW": {
+                "points": 0,
+                "power": 10,
+                "nSP": 1,
+                "trophies": 545
+            },
+            "POCO": {
+                "points": 0,
+                "power": 10,
+                "nSP": 2,
+                "trophies": 545
+            },
+            "BO": {
+                "points": 0,
+                "power": 9,
+                "nSP": 0,
+                "trophies": 533
+            },
+            "PIPER": {
+                "points": 0,
+                "power": 10,
+                "nSP": 1,
+                "trophies": 525
+            },
+            "PAM": {
+                "points": 0,
+                "power": 10,
+                "nSP": 2,
+                "trophies": 551
+            },
+            "TARA": {
+                "points": 0,
+                "power": 9,
+                "nSP": 0,
+                "trophies": 557
+            },
+            "DARRYL": {
+                "points": 0,
+                "power": 10,
+                "nSP": 1,
+                "trophies": 575
+            },
+            "PENNY": {
+                "points": 890,
+                "power": 7,
+                "nSP": 0,
+                "trophies": 496
+            },
+            "FRANK": {
+                "points": 890,
+                "power": 7,
+                "nSP": 0,
+                "trophies": 495
+            },
+            "TICK": {
+                "points": 0,
+                "power": 10,
+                "nSP": 1,
+                "trophies": 509
+            },
+            "LEON": {
+                "points": 0,
+                "power": 10,
+                "nSP": 2,
+                "trophies": 575
+            },
+            "ROSA": {
+                "points": 0,
+                "power": 9,
+                "nSP": 0,
+                "trophies": 558
+            },
+            "CARL": {
+                "points": 1100,
+                "power": 6,
+                "nSP": 0,
+                "trophies": 507
+            },
+            "BIBI": {
+                "points": 0,
+                "power": 9,
+                "nSP": 0,
+                "trophies": 525
+            },
+            "8-BIT": {
+                "points": 890,
+                "power": 7,
+                "nSP": 0,
+                "trophies": 458
+            },
+            "EMZ": {
+                "points": 0,
+                "power": 10,
+                "nSP": 1,
+                "trophies": 575
+            },
+            "MORTIS": {
+                "points": 1100,
+                "power": 6,
+                "nSP": 0,
+                "trophies": 450
+            },
+            "SANDY": {
+                "points": 890,
+                "power": 7,
+                "nSP": 0,
+                "trophies": 502
+            },
+            "GENE": {
+                "points": 550,
+                "power": 8,
+                "nSP": 0,
+                "trophies": 518
+            },
+            "BEA": {
+                "points": 890,
+                "power": 7,
+                "nSP": 0,
+                "trophies": 538
+            },
+            "MR. P": {
+                "points": 0,
+                "power": 10,
+                "nSP": 1,
+                "trophies": 576
+            },
+            "MAX": {
+                "points": 1100,
+                "power": 6,
+                "nSP": 0,
+                "trophies": 525
+            },
+            "JACKY": {
+                "points": 0,
+                "power": 9,
+                "nSP": 0,
+                "trophies": 625
+            },
+            "GALE": {
+                "points": 21,
+                "power": 4,
+                "nSP": 0,
+                "trophies": 115
+            },
+            "SPROUT": {
+                "points": 168,
+                "power": 8,
+                "nSP": 0,
+                "trophies": 430
+            }
+        }
+    },
+    "8CRJJ2JR9": {
+        "ign": "Shiro",
+        "coins": 218,
+        "starpoints": 2206,
+        "points_to_go": 640,
+        "coins_needed": 35330,
+        "coins_to_go": 37830,
+        "last_updated": "2020-04-25",
+        "brawlers": {
+            "SHELLY": {
+                "points": 0,
+                "power": 10,
+                "nSP": 2,
+                "trophies": 509
+            },
+            "COLT": {
+                "points": 890,
+                "power": 7,
+                "nSP": 0,
+                "trophies": 445
+            },
+            "BULL": {
+                "points": 890,
+                "power": 7,
+                "nSP": 0,
+                "trophies": 508
+            },
+            "BROCK": {
+                "points": 890,
+                "power": 7,
+                "nSP": 0,
+                "trophies": 456
+            },
+            "RICO": {
+                "points": 550,
+                "power": 8,
+                "nSP": 0,
+                "trophies": 471
+            },
+            "BARLEY": {
+                "points": 890,
+                "power": 7,
+                "nSP": 0,
+                "trophies": 413
+            },
+            "JESSIE": {
+                "points": 0,
+                "power": 10,
+                "nSP": 2,
+                "trophies": 579
+            },
+            "NITA": {
+                "points": 0,
+                "power": 10,
+                "nSP": 2,
+                "trophies": 571
+            },
+            "DYNAMIKE": {
+                "points": 890,
+                "power": 7,
+                "nSP": 0,
+                "trophies": 456
+            },
+            "EL PRIMO": {
+                "points": 890,
+                "power": 7,
+                "nSP": 0,
+                "trophies": 485
+            },
+            "MORTIS": {
+                "points": 890,
+                "power": 7,
+                "nSP": 0,
+                "trophies": 439
+            },
+            "POCO": {
+                "points": 0,
+                "power": 9,
+                "nSP": 0,
+                "trophies": 507
+            },
+            "BO": {
+                "points": 0,
+                "power": 10,
+                "nSP": 2,
+                "trophies": 525
+            },
+            "PIPER": {
+                "points": 890,
+                "power": 7,
+                "nSP": 0,
+                "trophies": 522
+            },
+            "PAM": {
+                "points": 0,
+                "power": 10,
+                "nSP": 1,
+                "trophies": 559
+            },
+            "TARA": {
+                "points": 0,
+                "power": 10,
+                "nSP": 1,
+                "trophies": 525
+            },
+            "DARRYL": {
+                "points": 0,
+                "power": 10,
+                "nSP": 2,
+                "trophies": 534
+            },
+            "PENNY": {
+                "points": 0,
+                "power": 9,
+                "nSP": 0,
+                "trophies": 496
+            },
+            "FRANK": {
+                "points": 0,
+                "power": 10,
+                "nSP": 1,
+                "trophies": 518
+            },
+            "GENE": {
+                "points": 550,
+                "power": 8,
+                "nSP": 0,
+                "trophies": 554
+            },
+            "TICK": {
+                "points": 890,
+                "power": 7,
+                "nSP": 0,
+                "trophies": 500
+            },
+            "ROSA": {
+                "points": 0,
+                "power": 10,
+                "nSP": 2,
+                "trophies": 603
+            },
+            "CARL": {
+                "points": 890,
+                "power": 7,
+                "nSP": 0,
+                "trophies": 443
+            },
+            "BIBI": {
+                "points": 0,
+                "power": 10,
+                "nSP": 1,
+                "trophies": 514
+            },
+            "8-BIT": {
+                "points": 890,
+                "power": 7,
+                "nSP": 0,
+                "trophies": 424
+            },
+            "LEON": {
+                "points": 447,
+                "power": 7,
+                "nSP": 0,
+                "trophies": 308
+            },
+            "SANDY": {
+                "points": 890,
+                "power": 7,
+                "nSP": 0,
+                "trophies": 531
+            },
+            "BEA": {
+                "points": 890,
+                "power": 7,
+                "nSP": 0,
+                "trophies": 429
+            },
+            "EMZ": {
+                "points": 0,
+                "power": 9,
+                "nSP": 0,
+                "trophies": 547
+            },
+            "MR. P": {
+                "points": 693,
+                "power": 7,
+                "nSP": 0,
+                "trophies": 450
+            },
+            "MAX": {
+                "points": 1100,
+                "power": 6,
+                "nSP": 0,
+                "trophies": 303
+            },
+            "JACKY": {
+                "points": 890,
+                "power": 7,
+                "nSP": 0,
+                "trophies": 520
+            }
+        }
+    },
+    "92YP800CG": {
+        "ign": "pho",
+        "coins": 186,
+        "starpoints": 13429,
+        "points_to_go": 10034,
+        "coins_needed": 9600,
+        "coins_to_go": 45790,
+        "last_updated": "2020-05-13",
+        "brawlers": {
+            "SHELLY": {
+                "points": 0,
+                "power": 10,
+                "nSP": 2,
+                "trophies": 530
+            },
+            "COLT": {
+                "points": 0,
+                "power": 9,
+                "nSP": 0,
+                "trophies": 534
+            },
+            "BULL": {
+                "points": 776,
+                "power": 7,
+                "nSP": 0,
+                "trophies": 496
+            },
+            "BROCK": {
+                "points": 0,
+                "power": 10,
+                "nSP": 1,
+                "trophies": 549
+            },
+            "RICO": {
+                "points": 351,
+                "power": 8,
+                "nSP": 0,
+                "trophies": 525
+            },
+            "BARLEY": {
+                "points": 624,
+                "power": 7,
+                "nSP": 0,
+                "trophies": 512
+            },
+            "JESSIE": {
+                "points": 0,
+                "power": 10,
+                "nSP": 1,
+                "trophies": 591
+            },
+            "NITA": {
+                "points": 0,
+                "power": 10,
+                "nSP": 2,
+                "trophies": 578
+            },
+            "DYNAMIKE": {
+                "points": 444,
+                "power": 8,
+                "nSP": 0,
+                "trophies": 505
+            },
+            "EL PRIMO": {
+                "points": 425,
+                "power": 8,
+                "nSP": 0,
+                "trophies": 510
+            },
+            "MORTIS": {
+                "points": 703,
+                "power": 7,
+                "nSP": 0,
+                "trophies": 439
+            },
+            "POCO": {
+                "points": 835,
+                "power": 7,
+                "nSP": 0,
+                "trophies": 523
+            },
+            "BO": {
+                "points": 666,
+                "power": 7,
+                "nSP": 0,
+                "trophies": 521
+            },
+            "PIPER": {
+                "points": 327,
+                "power": 7,
+                "nSP": 0,
+                "trophies": 428
+            },
+            "PAM": {
+                "points": 833,
+                "power": 7,
+                "nSP": 0,
+                "trophies": 519
+            },
+            "TARA": {
+                "points": 392,
+                "power": 7,
+                "nSP": 0,
+                "trophies": 471
+            },
+            "DARRYL": {
+                "points": 607,
+                "power": 7,
+                "nSP": 0,
+                "trophies": 536
+            },
+            "PENNY": {
+                "points": 479,
+                "power": 8,
+                "nSP": 0,
+                "trophies": 537
+            },
+            "FRANK": {
+                "points": 0,
+                "power": 10,
+                "nSP": 1,
+                "trophies": 569
+            },
+            "GENE": {
+                "points": 539,
+                "power": 7,
+                "nSP": 0,
+                "trophies": 440
+            },
+            "TICK": {
+                "points": 530,
+                "power": 7,
+                "nSP": 0,
+                "trophies": 527
+            },
+            "ROSA": {
+                "points": 0,
+                "power": 10,
+                "nSP": 1,
+                "trophies": 587
+            },
+            "CARL": {
+                "points": 569,
+                "power": 7,
+                "nSP": 0,
+                "trophies": 462
+            },
+            "BIBI": {
+                "points": 401,
+                "power": 7,
+                "nSP": 0,
+                "trophies": 529
+            },
+            "8-BIT": {
+                "points": 0,
+                "power": 8,
+                "nSP": 0,
+                "trophies": 525
+            },
+            "EMZ": {
+                "points": 285,
+                "power": 7,
+                "nSP": 0,
+                "trophies": 537
+            },
+            "CROW": {
+                "points": 37,
+                "power": 6,
+                "nSP": 0,
+                "trophies": 252
+            },
+            "BEA": {
+                "points": 65,
+                "power": 6,
+                "nSP": 0,
+                "trophies": 441
+            },
+            "JACKY": {
+                "points": 9,
+                "power": 5,
+                "nSP": 0,
+                "trophies": 265
+            },
+            "MAX": {
+                "points": 19,
+                "power": 4,
+                "nSP": 0,
+                "trophies": 255
+            }
+        }
+    },
+    "JQU8YOOR": {
+        "ign": "Sorbae",
+        "coins": 0,
+        "starpoints": 0,
+        "points_to_go": 0,
+        "coins_needed": 0,
+        "coins_to_go": 0,
+        "last_updated": "2019-11-25",
+        "brawlers": {
+            "SHELLY": {
+                "points": 0,
+                "power": 10,
+                "nSP": 2,
+                "trophies": 626
+            },
+            "COLT": {
+                "points": 0,
+                "power": 10,
+                "nSP": 2,
+                "trophies": 607
+            },
+            "BULL": {
+                "points": 0,
+                "power": 10,
+                "nSP": 2,
+                "trophies": 525
+            },
+            "BROCK": {
+                "points": 0,
+                "power": 10,
+                "nSP": 2,
+                "trophies": 563
+            },
+            "RICO": {
+                "points": 0,
+                "power": 10,
+                "nSP": 2,
+                "trophies": 610
+            },
+            "SPIKE": {
+                "points": 0,
+                "power": 10,
+                "nSP": 2,
+                "trophies": 539
+            },
+            "BARLEY": {
+                "points": 0,
+                "power": 10,
+                "nSP": 2,
+                "trophies": 525
+            },
+            "JESSIE": {
+                "points": 0,
+                "power": 10,
+                "nSP": 2,
+                "trophies": 543
+            },
+            "NITA": {
+                "points": 0,
+                "power": 10,
+                "nSP": 2,
+                "trophies": 525
+            },
+            "DYNAMIKE": {
+                "points": 0,
+                "power": 10,
+                "nSP": 2,
+                "trophies": 537
+            },
+            "EL PRIMO": {
+                "points": 0,
+                "power": 10,
+                "nSP": 2,
+                "trophies": 525
+            },
+            "MORTIS": {
+                "points": 0,
+                "power": 10,
+                "nSP": 2,
+                "trophies": 560
+            },
+            "CROW": {
+                "points": 0,
+                "power": 10,
+                "nSP": 2,
+                "trophies": 601
+            },
+            "POCO": {
+                "points": 0,
+                "power": 10,
+                "nSP": 2,
+                "trophies": 518
+            },
+            "BO": {
+                "points": 0,
+                "power": 10,
+                "nSP": 2,
+                "trophies": 571
+            },
+            "PIPER": {
+                "points": 0,
+                "power": 10,
+                "nSP": 2,
+                "trophies": 601
+            },
+            "PAM": {
+                "points": 0,
+                "power": 10,
+                "nSP": 2,
+                "trophies": 542
+            },
+            "TARA": {
+                "points": 0,
+                "power": 10,
+                "nSP": 2,
+                "trophies": 553
+            },
+            "DARRYL": {
+                "points": 0,
+                "power": 10,
+                "nSP": 2,
+                "trophies": 536
+            },
+            "PENNY": {
+                "points": 0,
+                "power": 10,
+                "nSP": 2,
+                "trophies": 513
+            },
+            "FRANK": {
+                "points": 0,
+                "power": 10,
+                "nSP": 1,
+                "trophies": 500
+            },
+            "GENE": {
+                "points": 0,
+                "power": 10,
+                "nSP": 2,
+                "trophies": 516
+            },
+            "TICK": {
+                "points": 0,
+                "power": 10,
+                "nSP": 2,
+                "trophies": 525
+            },
+            "LEON": {
+                "points": 0,
+                "power": 10,
+                "nSP": 2,
+                "trophies": 601
+            },
+            "ROSA": {
+                "points": 0,
+                "power": 10,
+                "nSP": 2,
+                "trophies": 533
+            },
+            "CARL": {
+                "points": 0,
+                "power": 10,
+                "nSP": 2,
+                "trophies": 552
+            },
+            "BIBI": {
+                "points": 0,
+                "power": 10,
+                "nSP": 2,
+                "trophies": 537
+            },
+            "8-BIT": {
+                "points": 0,
+                "power": 10,
+                "nSP": 1,
+                "trophies": 507
+            },
+            "SANDY": {
+                "points": 0,
+                "power": 10,
+                "nSP": 2,
+                "trophies": 513
+            },
+            "EMZ": {
+                "points": 0,
+                "power": 10,
+                "nSP": 1,
+                "trophies": 622
+            }
+        }
+    }
+}
