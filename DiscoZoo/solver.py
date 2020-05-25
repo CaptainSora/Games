@@ -345,6 +345,6 @@ def select():
         response = input("Input q to quit, all else continues: ")
         if response == "q":
             break
-            
+
 
 select()
