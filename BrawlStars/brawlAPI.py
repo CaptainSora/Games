@@ -1,6 +1,7 @@
 from datetime import datetime, timedelta
 from json import dump, load, loads
 from pathlib import Path
+
 from requests import get
 
 
@@ -10,6 +11,12 @@ from requests import get
 # How much money would be required to max account, using 80 gem mega boxes
 #   Might have to save brawler rarities somewhere, and legendary drop rates
 # Optional: unclaimed from tier
+
+
+""" TO FIX """
+# Season end dates + times
+# Magic numbers (e.g. T61)
+# DOCSTRINGS YOU LAZY PIECE OF SH!T
 
 
 """ SORT ORDER """
@@ -111,14 +118,19 @@ def get_playerdata(playertag):
 
 
 # ========== Print formatting =================================================
-def print_time_remaining(seasontype, seasonnum=0, seasonname="<empty>"):
+def print_time_remaining(seasontype):
     """
     Prints the time remaining until the season ends.
     Seasontype is one of "brawlpass", "trophies", "powerplay"
     """
     if seasontype == "brawlpass":
         remaining = SEASON_1_END - datetime.now()
-        printstr = f"\n=== Season {seasonnum}: {seasonname} ends in"
+        with open("BrawlStars/seasondata.json") as f:
+            seasondata = load(f)['seasons'][-1]
+        printstr = (
+            f"\n=== Season {seasondata['number']}: {seasondata['name']} "
+            f"ends in"
+        )
     else:
         if seasontype == "trophies":
             next_reset = SEASON_RESET_EPOCH
@@ -178,34 +190,51 @@ def pp_input(prompt):
 
 
 # ========== Resets ===========================================================
-def unpack_rewards(rewards):
-    rewards = [*rewards]  # Splat copy
+def season_rewards(convert=False, brawlerlist=[]):
+    """
+    Generates brawl pass rewards from seasondata.json
+    First list is F2P track, second is Brawl Pass track, third is token cost
+    convert does alternate reward conversion
+    brawlerlist is necessary with convert=True
+    """
+    # Load data
+    with open("BrawlStars/seasondata.json") as f:
+        seasondata = load(f)['seasons'][-1]
+    rewards = seasondata['rewards']
+    cost = seasondata['cost']
 
     # Convert stored datatype to progression
     def translate(rewardstring):
         if rewardstring == "":
             return 0
         elif rewardstring[0] == 'b':
-            return int(BRAWL_BOX * int(rewardstring[1:]))
+            return BRAWL_BOX * int(rewardstring[1:])
         elif rewardstring[0] == 'c':
             return int(rewardstring[1:])
         elif rewardstring[0] == 'p':
-            return 2 * int(rewardstring[1:])
+            if convert:
+                return BIG_BOX
+            else:
+                return 2 * int(rewardstring[1:])
+        elif rewardstring[0] == 'n':
+            if convert and rewardstring[1:] in brawlerlist:
+                return BIG_BOX
+            else:
+                return 0
+        else:
+            return 0
 
     for r in range(len(rewards)):
         rewards[r] = [translate(s) for s in rewards[r].split('/')]
-    return list(zip(*rewards))  # Unzips
+    return list(zip(*rewards)) + [cost]  # Unzips
 
 
-def brawl_pass_reset(tier, brawlpass):
-    with open("BrawlStars/seasondata.json") as f:
-        seasondata = load(f)['seasons'][-1]
-    print_time_remaining("brawlpass", seasondata['number'], seasondata['name'])
-    rewards = unpack_rewards(seasondata['rewards'])
+def brawl_pass_reset(tier, brawlpass, rewards):
+    print_time_remaining("brawlpass")
     # Calculate progression left in season
     tokens = tokens_remaining(brawlpass)
-    if tokens > int(sum(seasondata['cost'][tier:])):
-        big_boxes = int((tokens - sum(seasondata['cost'][tier:])) / 500)
+    if tokens > int(sum(rewards[2][tier:])):
+        big_boxes = int((tokens - sum(rewards[2][tier:])) / 500)
         remaining_prog = sum(rewards[0][tier:]) + \
             (sum(rewards[1][tier:]) if brawlpass else 0) + BIG_BOX * big_boxes
     else:
@@ -213,11 +242,11 @@ def brawl_pass_reset(tier, brawlpass):
         big_boxes = 0
         cur_tier = tier  # Guaranteed to stay <= 60
         while True:
-            if tokens < seasondata['cost'][cur_tier]:
+            if tokens < rewards[2][cur_tier]:
                 break
             remaining_prog += rewards[0][cur_tier] + \
                 (rewards[1][cur_tier] if brawlpass else 0)
-            tokens -= seasondata['cost'][cur_tier]
+            tokens -= rewards[2][cur_tier]
             cur_tier += 1
     print(
         f"You are expected to open {int(big_boxes)} big boxes at the end of "
@@ -293,12 +322,10 @@ def tokens_remaining(brawlpass):
 
 def total_season_prog(brawlpass):
     # Track progression
-    with open("BrawlStars/seasondata.json") as f:
-        seasondata = load(f)['seasons'][-1]
-    rewards = unpack_rewards(seasondata['rewards'])
+    rewards = season_rewards()
     prog = int(sum(rewards[0]) + (sum(rewards[1]) if brawlpass else 0))
     # T61 (bonus) progression
-    season_cost = sum(seasondata['cost'])
+    season_cost = sum(rewards[2])
     # Daily: 200 bank, 200 quests, 50 new events
     # Weekly: Assume 8 weeks per season, 2000 med/lg quests, 500 weekly,
     #   500 brawl pass exclusive
@@ -320,12 +347,12 @@ def max_brawlers(prog_to_max, prog_in_season, sp_left=0, gadgets_left=0):
             season_req = [int(prog_left / p) + 1 for p in season_prog]
             if season_req[0] == season_req[1]:
                 print(
-                    f"You will have all current brawlers {endstr[i]} by the "
+                    f"You should have all current brawlers {endstr[i]} by the "
                     f"end of season {CURRENT_SEASON + season_req[0]}."
                 )
             else:
                 print(
-                    f"You will have all current brawlers {endstr[i]} by the "
+                    f"You should have all current brawlers {endstr[i]} by the "
                     f"end of season {CURRENT_SEASON + season_req[1]} with the "
                     f"brawl pass, or the end of season "
                     f"{CURRENT_SEASON + season_req[0]} without the brawl pass."
@@ -421,7 +448,7 @@ def player_update(pdata, verbose=True, override=False):
             b['points'] = min(b['points'], sum(POINTS[b['power']:]))
             pdata['points_needed'] += sum(POINTS[b['power']:])-b['points']
             pdata['coins_needed'] += sum(COINS[b['power']:])
-    # Print values
+    # ==================== Print values ====================================
     print("Brawler data updated.")
     # Collection
     print("\n=== Collection ===")
@@ -432,7 +459,13 @@ def player_update(pdata, verbose=True, override=False):
     )
     print(f"You are waiting on {pdata['gadgets_needed'][0]} gadgets.")
     # Season
-    prog_in_season = brawl_pass_reset(pdata['tier'], pdata['brawlpass'])
+    rewards = season_rewards(
+        convert=(pdata['points_needed'] == 0),
+        brawlerlist=[b['name'] for b in pdata['brawlers']]
+    )
+    prog_in_season = brawl_pass_reset(
+        pdata['tier'], pdata['brawlpass'], rewards
+    )
     # Trophy reset
     trophy_reset(pdata['brawlers'], pdata['trophies'])
     # Power play
@@ -440,10 +473,12 @@ def player_update(pdata, verbose=True, override=False):
     # Completion
     print("\n=== Completion ===")
     prog_remaining = pdata['coins_needed'] + 2 * pdata['points_needed']
-      # Assumes 2 SP and 1 G per brawler
+        # Assumes 2 SP and 1 G per brawler
+        # Should new brawlers be included?
     addl_coins = (
-        2000 * (2 * len(pdata['brawlers']) - pdata['sp_needed'][0])
-        + 1000 * (len(pdata['brawlers']) - pdata['gadgets_needed'][0])
+        2000 * pdata['sp_needed'][0]
+        + 1000 * pdata['gadgets_needed'][0]
+        # + 5000 * (len(BRAWLERS) - len(pdata['brawlers']))
     )
     if prog_remaining > 0:
         print(
@@ -452,7 +487,7 @@ def player_update(pdata, verbose=True, override=False):
             f"power 9, for a total of {prog_remaining} progression."
         )
     else:
-        print("All your brawlers are at power 9.")
+        print("All your brawlers are at or above power 9.")
     if prog_remaining + addl_coins > 0:
         print(
             f"You need an additional {addl_coins} coins to buy all remaining "
@@ -461,6 +496,10 @@ def player_update(pdata, verbose=True, override=False):
         )
         max_brawlers(prog_remaining, prog_in_season, pdata['sp_needed'][0], 
                     pdata['gadgets_needed'][0])
+        print(
+            f"You are expected to earn another {prog_in_season} progression "
+            f"this season."
+        )
     else:
         print("You have all available star powers and gadgets.")
     # For fun
@@ -520,11 +559,10 @@ def update(playertag, verbose=True, override=False):
         # Update playerdata dictionary with information from server
         playerdata = dict_merge(playerdata, get_playerdata(playertag))
         print(f"Now starting calculations for {playerdata['name']}...")
-    # Update
+    # Update=
     player_update(playerdata, verbose, override)
     # Write back to file
     with open(datapath, 'w') as f:
         dump(playerdata, f)
 
-
-update("UULVQY2L", verbose=False)
+update("JQU8Y00R", verbose=False)
