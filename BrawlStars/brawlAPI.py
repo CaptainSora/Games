@@ -108,9 +108,18 @@ def apirequest(apitail):
     response = get(f'https://api.brawlstars.com/v1/{apitail}', headers=headers)
     if response.status_code == 200:
         return loads(response.content.decode('utf-8'))
-    else:
-        print(f"Error code: {response.status_code}")
-        return None
+    HTTPS_RESPONSES = {
+        400: "Client provided incorrect parameters for the request.",
+        403: "Access denied.",
+        404: "Resource not found.",
+        429: "Request was throttled.",
+        500: "Unknown error.",
+        503: "Service is unavailable due to maintenance."
+    }
+    print(f"Error code: {response.status_code}")
+    if response.status_code in HTTPS_RESPONSES:
+        print(HTTPS_RESPONSES[response.status_code])
+    return None
 
 
 def get_playerdata(playertag):
@@ -436,7 +445,8 @@ def player_update(pdata, verbose=True, override=False):
             # print(b['points'], sum(POINTS[b['power']:]))
             if 'points' not in b:
                 b['points'] = 0
-            if b['power'] >= 9 or b['points'] == sum(POINTS[b['power']:]):
+            if b['power'] >= 9 or b['points'] >= sum(POINTS[b['power']:]):
+                b['points'] = sum(POINTS[b['power']:])
                 if verbose:
                     print(f"{b['name']} is maxed")
             else:
@@ -565,4 +575,4 @@ def update(playertag, verbose=True, override=False):
     with open(datapath, 'w') as f:
         dump(playerdata, f)
 
-update("JQU8Y00R", verbose=False)
+update("UULVQY2L", verbose=False)
