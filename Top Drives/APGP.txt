@@ -1,0 +1,25 @@
+Mazda Familia GT-X, Hatchback, 1992, 45, 3
+Mazda Shinari, Hatchback, 2010, 45, 6
+Mitsu Mirage Asti RS, Coupe, 1995, 45, 9
+Bufori V6i Cannonballl, Roadster, 1994, 44, 6
+Hyundai Tucson 1.6 T-GDI PHEV, SUV, 2021, 44, 9
+Mazda RX-500, Coupe, 1970, 44, 7
+Mitsu Diamante 30R-SE 4WD, Saloon, 1993, 44, 7
+Mazda 3 e-Skyactiv-X Saloon, Saloon, 2020, 43, 5
+Mazda RX-7 Turbo II (FC), Coupe, 1990, 43, 5
+Mitsu Galant VR-4, Saloon, 1989, 42, 2
+Hyundai Grandeur 3.0, Saloon, 2016, 41, 3
+Hyundai Grandeur 3.8, Saloon, 2005, 41, 2
+Hyundai Sonata V6, Saloon, 2005, 41, 3
+Hyundai Tucson 2.0 CRDi, SUV, 2017, 41, 4
+Mazda 3 2.2d, Hatchback, 2009, 41, 4
+Mazda Cosmo Rotary Turbo Saloon, Saloon, 1984, 41, 6
+Mazda CX-3 Racing, SUV, 2015, 41, 3
+Mitsu Galant Ralliart, Saloon, 2007, 41, 3
+Bufori MKIII La Joya, Coupe, 2003, 40, 3
+Hyundai Aslan 3.3, Saloon, 2014, 40, 2
+Hyundai Grandeur 3.3, Saloon, 2011, 40, 2
+Hyundai i30 Fastback 1.5 T-GDI, Coupe, 2020, 40, 3
+Mazda MX-5 RF 2.0, Roadster, 2022, 40, 3
+Mitsu Eclipse Spyder GS-T, Convertible, 1996, 40, 1
+Mitsu FTO GPX, Coupe, 1997, 40, 2
