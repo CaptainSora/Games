@@ -70,8 +70,8 @@ def outcomes(nflags, progress, access, season_name):
 
 # outcomes(273, [0, 0, 0, 0, 0, 5, 5, 0], "Circuit Breakers")
 outcomes(
-    74,
+    469,
     [0, 0, 0, 0, 0, 0, 5, 5, 5],
-    [1, 0, 0, 0, 0, 1, 0, 0, 1],
+    [1, 1, 0, 0, 0, 1, 0, 0, 1],
     "Living On The Edge"
 )
