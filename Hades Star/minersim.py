@@ -1,5 +1,6 @@
 from math import floor
 from random import uniform
+import pandas as pd
 
 
 GEN = [0, 120, 160, 200, 240, 280, 320, 400, 480, 560, 640, 720, 800, 1000, 1200, 1400]
@@ -10,6 +11,10 @@ REMOTE = [0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 14, 14]
 MINER = [0, 6, 7.5, 12, 24, 60, 80, 92.3]
 HMAX = 1500
 DRSHYDRO = [0, 0, 0, 0, 0, 0, 0, 400, 500, 600, 700, 800, 900]
+
+## TODO
+# - Sanity check miner lv vs AB lv
+# - Learn about crunch mechanics
 
 
 def miner_sim(drslv, genlv, enrlv, ablv, mboostlv, remotelv, minerlv, minerqty, boostqty, tick_len=10):
@@ -23,6 +28,8 @@ def miner_sim(drslv, genlv, enrlv, ablv, mboostlv, remotelv, minerlv, minerqty, 
     minerqty: int at least 1
     boostqty: int at least 1
     tick_len: int as a positive factor of 60
+
+    Returns the output of the simulation and the log of each simulated step
     """
     # Randomly generate hydro roid values
     # Assuming uniformly generated values within 10% of the average hydro value in sector
@@ -95,7 +102,7 @@ def miner_sim(drslv, genlv, enrlv, ablv, mboostlv, remotelv, minerlv, minerqty, 
                 roids = enrich(roids)
                 output.append(f"Enriched to {sum(roids)} total hydro")
             # Log details
-            log.append(f"{incr_to_dur(incr)} / Boosts: {boosts} / Tank: {tank/minerqty:.1f} / Hydro: {sum(roids):.1f}")
+            log.append([incr] + [boosts] + [tank/minerqty] + roids)
             # Checks
             if min(roids) <= 0:
                 break
@@ -107,8 +114,9 @@ def miner_sim(drslv, genlv, enrlv, ablv, mboostlv, remotelv, minerlv, minerqty, 
         if boosts < boostqty:
             delay += tick_len
             continue
-
-        return output, log
+        
+        log_cols = ["Time", "Boosts", "Tank"] + [f"r{x}" for x in range(1, 15)]
+        return output, pd.DataFrame.from_records(log, columns=log_cols)
     
     # Failed simulation
     output = [
@@ -121,6 +129,7 @@ def miner_sim(drslv, genlv, enrlv, ablv, mboostlv, remotelv, minerlv, minerqty, 
 
 
 if __name__ == "__main__":
-    output, log = miner_sim(10, 13, 11, 13, 11, 9, 6, 2, 18)
-    for line in output + log:
+    # output, log = miner_sim(10, 13, 11, 13, 11, 9, 6, 2, 18)
+    output, log = miner_sim(9, 13, 12, 12, 10, 10, 5, 3, 15)
+    for line in output:
         print(line)
