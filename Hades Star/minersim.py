@@ -1,6 +1,6 @@
 from math import floor
 from random import uniform
-import pandas as pd
+from pandas import DataFrame as df
 
 
 GEN = [0, 120, 160, 200, 240, 280, 320, 400, 480, 560, 640, 720, 800, 1000, 1200, 1400]
@@ -17,7 +17,7 @@ DRSHYDRO = [0, 0, 0, 0, 0, 0, 0, 400, 500, 600, 700, 800, 900]
 # - Learn about crunch mechanics
 
 
-def miner_sim(drslv, genlv, enrlv, ablv, mboostlv, remotelv, minerlv, minerqty, boostqty, tick_len=10):
+def simulate(drslv, genlv, enrlv, ablv, mboostlv, remotelv, minerlv, minerqty, boostqty, tick_len=10):
     """
     Runs a simulation of the hydrogen (h or hydro) asteroids (roids) in the hydro sector of a Hades' Star
     Dark Red Star (DRS).
@@ -29,7 +29,7 @@ def miner_sim(drslv, genlv, enrlv, ablv, mboostlv, remotelv, minerlv, minerqty, 
     boostqty: int at least 1
     tick_len: int as a positive factor of 60
 
-    Returns the output of the simulation and the log of each simulated step
+    Returns the output of the simulation and a DataFrame of each simulated step
     """
     # Randomly generate hydro roid values
     # Assuming uniformly generated values within 10% of the average hydro value in sector
@@ -115,8 +115,13 @@ def miner_sim(drslv, genlv, enrlv, ablv, mboostlv, remotelv, minerlv, minerqty, 
             delay += tick_len
             continue
         
-        log_cols = ["Time", "Boosts", "Tank"] + [f"r{x}" for x in range(1, 15)]
-        return output, pd.DataFrame.from_records(log, columns=log_cols)
+        # Create log df
+        status_cols = ["Time", "Boosts", "Tank"]
+        roid_cols = [f"r{x}" for x in range(1, 15)]
+        log = df.from_records(log, columns=status_cols+roid_cols)
+        log["Total Hydro"] = log[roid_cols].sum(axis=1)
+        log["Max Hydro"] = 21000
+        return output, log
     
     # Failed simulation
     output = [
@@ -125,11 +130,11 @@ def miner_sim(drslv, genlv, enrlv, ablv, mboostlv, remotelv, minerlv, minerqty, 
         f"DRS{drslv} starting with random roid sizes {roids} totalling {sum(roids)}h",
         f"Simulation failed with given parameters!"
     ]
-    return output, []
+    return output, df()
 
 
 if __name__ == "__main__":
-    # output, log = miner_sim(10, 13, 11, 13, 11, 9, 6, 2, 18)
-    output, log = miner_sim(9, 13, 12, 12, 10, 10, 5, 3, 15)
+    # output, log = simulate(10, 13, 11, 13, 11, 9, 6, 2, 18)
+    output, log = simulate(9, 13, 12, 12, 10, 10, 5, 3, 15)
     for line in output:
         print(line)
