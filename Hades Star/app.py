@@ -100,4 +100,6 @@ if st.session_state["output"] is not None and st.session_state["log"] is not Non
             y="Hydrogen"
         )
 
-    
+        st.bar_chart()
+
+        st.session_state["time"] = st.slider("DRS Time")

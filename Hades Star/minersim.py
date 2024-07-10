@@ -15,6 +15,9 @@ DRSHYDRO = [0, 0, 0, 0, 0, 0, 0, 400, 500, 600, 700, 800, 900]
 ## TODO
 # - Sanity check miner lv vs AB lv
 # - Learn about crunch mechanics
+# - Start timer at start of DRS
+#   - Take input on when first genrich is?
+# - Help text on inputs
 
 
 def simulate(drslv, genlv, enrlv, ablv, mboostlv, remotelv, minerlv, minerqty, boostqty, tick_len=10):
