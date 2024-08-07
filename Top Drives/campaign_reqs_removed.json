@@ -1,0 +1,970 @@
+{
+    "UK Midlands 1": [
+        "nwLoop_a00",
+        "oceanShortDrag_a00"
+    ],
+    "UK Midlands 2": [
+        "tokyoDrag_a00",
+        "mtHairpin_a00"
+    ],
+    "UK Midlands 3": [
+        "laguna_a00",
+        "runwayDrag_a00"
+    ],
+    "UK Midlands 4": [
+        "mnCity_a00"
+    ],
+    "UK Midlands 5": [
+        "townSlalom_a00",
+        "carPark_a00"
+    ],
+    "UK Midlands 6": [
+        "tCircuit_a00",
+        "tRoad_a00",
+        "mile4_a00"
+    ],
+    "UK Midlands 7": [
+        "forest_a01",
+        "dealsGap1_a01"
+    ],
+    "UK Midlands 8": [
+        "testBowlr_a00",
+        "dockKart_a01",
+        "slalom_a00"
+    ],
+    "UK Midlands 9": [
+        "hClimb_a00",
+        "northloop3_a01",
+        "canyonTour_a01"
+    ],
+    "UK Midlands 10": [
+        "townTour_a00"
+    ],
+    "FR Chamonix 1": [
+        "canyonTour_a00",
+        "tRoad_a00",
+        "mile1_a00",
+        "mile4_a11",
+        "hairpin_a10"
+    ],
+    "FR Chamonix 2": [
+        "mtHairpin_a11",
+        "hairpin_a50",
+        "drag60_a50",
+        "",
+        "rallySmall_a41"
+    ],
+    "FR Chamonix 3": [
+        "hairpin_a60",
+        "mile4_a60",
+        "tRoad_a60",
+        "mile2_a60"
+    ],
+    "FR Chamonix 4": [
+        "csSmall_a00",
+        "csMed_a00",
+        "mnCityNarrow_a00",
+        "mnCity_a00",
+        "tokyoOverpass_a00"
+    ],
+    "FR Chamonix 5": [
+        "mnHairpin_a41",
+        "tokyoOverpass_a00",
+        "csMed_a00",
+        "tRoad_a11"
+    ],
+    "FR Chamonix 6": [
+        "carPark_a00",
+        "drag30130_a00",
+        "mile2_a00",
+        "csMed_a00",
+        "hairpin_a00"
+    ],
+    "FR Chamonix 7": [
+        "oceanSlalom_ac0",
+        "fast_a00",
+        "gForcer_a00",
+        "mile4_a00"
+    ],
+    "FR Chamonix 8": [
+        "kart_a00",
+        "slalom_a01",
+        "tCircuitr_a01",
+        "tCircuitr_a00",
+        "gForce_a01"
+    ],
+    "FR Chamonix 9": [
+        "drag100_a00",
+        "gForce_a00",
+        "forest_a60",
+        "slalom_a60",
+        "mnHairpin_a00"
+    ],
+    "FR Chamonix 10": [
+        "airplaneSlalom_a10",
+        "mnCity_a00",
+        "gForce_a01",
+        "figureEight_ab0",
+        "gForcer_a00"
+    ],
+    "USA West Coast 1": [
+        "testBowlr_a01",
+        "drag100_a01",
+        "gForce_a01",
+        "mile2_a01",
+        "mnGforce_a01"
+    ],
+    "USA West Coast 2": [
+        "kart_a00",
+        "tokyoLoop_a00",
+        "indoorKart_a00",
+        "carPark_a00",
+        "gForcer_a00"
+    ],
+    "USA West Coast 3": [
+        "mnCityLong_a00",
+        "drag30130_a00",
+        "tokyoOffRamp_a00",
+        "tokyoOverpass_a00",
+        "mnCity_a00"
+    ],
+    "USA West Coast 4": [
+        "tRoad_a11",
+        "mile4_a00",
+        "slalom_a11",
+        "mile2_a11",
+        "hClimb_a11"
+    ],
+    "USA West Coast 5": [
+        "drag100b_a00",
+        "csMed_a00",
+        "mile1_a00",
+        "slalom_a00",
+        "csSmall_a00"
+    ],
+    "USA West Coast 6": [
+        "mile4r_a00",
+        "drag100_a00",
+        "gForcer_a00",
+        "slalomr_a00",
+        "drag120_a00"
+    ],
+    "USA West Coast 7": [
+        "tRoad_a00",
+        "hairpin_a00",
+        "tRoad_a20",
+        "slalom_a20",
+        "mile2_a20"
+    ],
+    "USA West Coast 8": [
+        "tRoad_a10",
+        "slalom_a10",
+        "slalom_a00",
+        "tRoad_a00"
+    ],
+    "USA West Coast 9": [
+        "csMed_a00",
+        "mile1_a00",
+        "csSmall_a00",
+        "tRoad_a10",
+        "mile2_a00"
+    ],
+    "USA West Coast 10": [
+        "testBowl_a00",
+        "drag100b_a00",
+        "mile4_a00",
+        "mile2_a00"
+    ],
+    "JP Atsugi 1": [
+        "carPark_a00",
+        "csSmall_a00",
+        "mile4_a00",
+        "csMed_a00",
+        "indoorKart_a00"
+    ],
+    "JP Atsugi 2": [
+        "drag30130_a00",
+        "indoorKart_a00",
+        "mile1_a00",
+        "slalom_a00",
+        "drag120_a00"
+    ],
+    "JP Atsugi 3": [
+        "csSmall_a00",
+        "carPark_a00",
+        "slalom_a00",
+        "csMed_a00",
+        "slalom_a01"
+    ],
+    "JP Atsugi 4": [
+        "csMed_a00",
+        "tRoad_a00",
+        "hairpin_a00",
+        "hairpin_a01",
+        "tRoad_a01"
+    ],
+    "JP Atsugi 5": [
+        "carPark_a01",
+        "slalom_a01",
+        "kart_a01",
+        "csMed_a00",
+        "slalom_a00"
+    ],
+    "JP Atsugi 6": [
+        "tRoad_a00",
+        "fastr_a00",
+        "tRoad_a01",
+        "hairpin_a00",
+        "csSmall_a00"
+    ],
+    "JP Atsugi 7": [
+        "hairpin_a00",
+        "hairpin_a01",
+        "hairpin_a60",
+        "tRoad_a01",
+        "drag150_a01"
+    ],
+    "JP Atsugi 8": [
+        "hairpin_a01",
+        "tRoad_a60",
+        "slalom_a60",
+        "gForce_a60",
+        "mile4_a60"
+    ],
+    "JP Atsugi 9": [
+        "csSmall_a00",
+        "csSmall_a60",
+        "mile1_a60",
+        "csMed_a60",
+        "carPark_a00"
+    ],
+    "JP Atsugi 10": [
+        "tCircuitr_a00",
+        "testBowlr_a00",
+        "kart_a00",
+        "gForce_a00"
+    ],
+    "GER Bavaria 1": [
+        "gForce_a00",
+        "mile1r_a00",
+        "drag100b_a00",
+        "slalom_a00",
+        "drag150_a00"
+    ],
+    "GER Bavaria 2": [
+        "testBowlr_a01",
+        "slalom_a01",
+        "gForce_a01",
+        "tCircuit_a00",
+        "kart_a00"
+    ],
+    "GER Bavaria 3": [
+        "hClimb_a10",
+        "hairpin_a00",
+        "tRoad_a00",
+        "drag150b_a00"
+    ],
+    "GER Bavaria 4": [
+        "drag75125_a00",
+        "slalom_a00",
+        "csMed_a00",
+        "drag120_a00",
+        "csSmall_a00"
+    ],
+    "GER Bavaria 5": [
+        "mile1_a00",
+        "tRoad_a00",
+        "tRoad_a01",
+        "tRoad_a60",
+        "hairpin_a01"
+    ],
+    "GER Bavaria 6": [
+        "fastr_a00",
+        "kart_a00",
+        "fast_a01",
+        "kart_a01"
+    ],
+    "GER Bavaria 7": [
+        "tRoad_a00",
+        "slalom_a00",
+        "gForce_a00",
+        "kart_a00",
+        "tCircuit_a00"
+    ],
+    "GER Bavaria 8": [
+        "slalom_a00",
+        "testBowlr_a00",
+        "slalom_a01",
+        "gForce_a01",
+        "drag100b_a01"
+    ],
+    "GER Bavaria 9": [
+        "tCircuit_a00",
+        "mile4_a00",
+        "tCircuit_a60",
+        "mile4_a60",
+        "tRoad_a01"
+    ],
+    "GER Bavaria 10": [
+        "mile1_a00",
+        "csSmall_a00",
+        "carPark_a00",
+        "csMed_a00"
+    ],
+    "FIN Tykkimaki 1": [
+        "frozenLake_ad0",
+        "tRoad_a60",
+        "slalom_a60",
+        "tRoad_a11",
+        "tRoad_a01"
+    ],
+    "FIN Tykkimaki 2": [
+        "tRoad_a20",
+        "drag100_a20",
+        "slalom_a20",
+        "hClimb_a20",
+        "hClimb_a11"
+    ],
+    "FIN Tykkimaki 3": [
+        "mile1_a00",
+        "tRoad_a00",
+        "hairpin_a01",
+        "tRoad_a01",
+        "hairpin_a60"
+    ],
+    "FIN Tykkimaki 4": [
+        "tCircuit_a01",
+        "mile4_a01",
+        "kart_a01",
+        "mile2_a01",
+        "slalom_a01"
+    ],
+    "FIN Tykkimaki 5": [
+        "hairpin_a60",
+        "tRoad_a60",
+        "hairpin_a20"
+    ],
+    "FIN Tykkimaki 6": [
+        "frozenLake_ad0",
+        "slalom_a30",
+        "hClimb_a20",
+        "hClimb_a11",
+        "drag100_a20"
+    ],
+    "FIN Tykkimaki 7": [
+        "slalom_a20",
+        "gForce_a20",
+        "mile2_a20",
+        "testBowlr_a20",
+        "mile1_a20"
+    ],
+    "FIN Tykkimaki 8": [
+        "slalom_a60",
+        "gForce_a60",
+        "mile2_a60",
+        "testBowlr_a60"
+    ],
+    "FIN Tykkimaki 9": [
+        "tRoad_a60",
+        "frozenLake_ad0",
+        "mile4_a30",
+        "gForce_a30",
+        "slalom_a30"
+    ],
+    "FIN Tykkimaki 10": [
+        "drag120_a20",
+        "tRoad_a20",
+        "tCircuit_a01",
+        "frozenLake_ad0",
+        "tRoad_a01"
+    ],
+    "COL Tatacoa 1": [
+        "tRoad_a10",
+        "hClimb_a10",
+        "mile2_a00",
+        "gForce_a10",
+        "mile1_a00"
+    ],
+    "COL Tatacoa 2": [
+        "csSmall_a00",
+        "mile4_a00",
+        "tRoad_a00"
+    ],
+    "COL Tatacoa 3": [
+        "tRoad_a00",
+        "hairpin_a00",
+        "tRoad_a10",
+        "hClimb_a10",
+        "slalom_a10"
+    ],
+    "COL Tatacoa 4": [
+        "tRoad_a10",
+        "slalom_a50",
+        "mile1_a10",
+        "slalom_a10",
+        "drag100b_a10"
+    ],
+    "COL Tatacoa 5": [
+        "tCircuit_a00",
+        "mile4_a00",
+        "slalom_a00",
+        "tRoad_a10",
+        "hClimb_a10"
+    ],
+    "COL Tatacoa 6": [
+        "csMed_a00",
+        "tCircuitr_a00",
+        "tRoad_a00",
+        "hairpin_a00",
+        "mile1_a00"
+    ],
+    "COL Tatacoa 7": [
+        "mile4_a50",
+        "hClimb_a10",
+        "tRoad_a10",
+        "slalom_a50",
+        "tRoad_a50"
+    ],
+    "COL Tatacoa 8": [
+        "gForce_a10",
+        "slalom_a00",
+        "mile2_a00",
+        "",
+        "drag100_a10"
+    ],
+    "COL Tatacoa 9": [
+        "tRoad_a00",
+        "hairpin_a10",
+        "tRoad_a10",
+        "tRoad_a50",
+        "mile4_a50"
+    ],
+    "COL Tatacoa 10": [
+        "mile4_a00",
+        "csSmall_a00",
+        "mile1_a00",
+        "tRoad_a00",
+        "hClimb_a10"
+    ],
+    "USA Nevada 1": [
+        "moto_a10",
+        "indoorKart_a00",
+        "mile4_a11",
+        "mile1_a00",
+        "slalom_a11"
+    ],
+    "USA Nevada 2": [
+        "csMed_a00",
+        "mile1_a00",
+        "csSmall_a00",
+        "moto_a10",
+        "hClimb_a10"
+    ],
+    "USA Nevada 3": [
+        "tRoad_a00",
+        "hairpin_a00",
+        "tRoad_a20"
+    ],
+    "USA Nevada 4": [
+        "tRoad_a11",
+        "mile4_a11",
+        "slalom_a11",
+        "mile2_a11"
+    ],
+    "USA Nevada 5": [
+        "tRoad_a10",
+        "slalom_a10",
+        "slalom_a00"
+    ],
+    "USA Nevada 6": [
+        "mile4r_a00",
+        "drag150_a00",
+        "gForcer_a00",
+        "slalomr_a00",
+        "drag150b_a00"
+    ],
+    "USA Nevada 7": [
+        "tCircuitr_a00",
+        "testBowl_a00",
+        "moto_a10",
+        "testBowl_a10",
+        "tCircuit_a10"
+    ],
+    "USA Nevada 8": [
+        "mile1_a20",
+        "gForce_a20",
+        "mile4_a11",
+        "csSmall_a00",
+        "drag100_a00"
+    ],
+    "USA Nevada 9": [
+        "drag100b_a00",
+        "csMed_a00",
+        "mile1_a00",
+        "slalom_a00",
+        "csSmall_a00"
+    ],
+    "USA Nevada 10": [
+        "moto_a10",
+        "",
+        "moto_a11",
+        "",
+        "gForce_a11"
+    ],
+    "UK London 1": [
+        "rallySmall_a40",
+        "tRoad_a10",
+        "slalom_a10",
+        "tRoad_a00",
+        "slalom_a00"
+    ],
+    "UK London 2": [
+        "mile4_a20",
+        "tRoad_a20",
+        "slalom_a20",
+        "mile2_a20"
+    ],
+    "UK London 3": [
+        "drag100b_a01",
+        "mile4_a00",
+        "mile2_a00",
+        "rallyMed_a40",
+        "tRoad_a00"
+    ],
+    "UK London 4": [
+        "drag100_a00",
+        "csMed_a00",
+        "indoorKart_a00",
+        "csSmall_a01"
+    ],
+    "UK London 5": [
+        "kart_a01",
+        "tCircuit_a01",
+        "fast_a01",
+        "drag100b_a01",
+        "kart_a01"
+    ],
+    "UK London 6": [
+        "csSmall_a00",
+        "mile1_a00",
+        "csMed_a00",
+        "drag100b_a00",
+        "rallyMed_a40"
+    ],
+    "UK London 7": [
+        "rallySmall_a40",
+        "drag100b_a00",
+        "mile1_a01",
+        "kart_a01",
+        "mile4_a00"
+    ],
+    "UK London 8": [
+        "drag100b_a00",
+        "gForce_a00",
+        "mile4_a00",
+        "testBowlr_a00",
+        "mile1_a00"
+    ],
+    "UK London 9": [
+        "fastr_a00",
+        "tCircuit_a00",
+        "drag100_a00",
+        "fast_a01",
+        "drag100_a01"
+    ],
+    "UK London 10": [
+        "tRoad_a00",
+        "rallyMed_a40",
+        "testBowlr_a00"
+    ],
+    "IT Milan 1": [
+        "hairpin_a01",
+        "hairpin_a60",
+        "tRoad_a60",
+        "tRoad_a01"
+    ],
+    "IT Milan 2": [
+        "fast_a00",
+        "mile1_a00",
+        "gForce_a00",
+        "tCircuit_a01",
+        "fastr_a00"
+    ],
+    "IT Milan 3": [
+        "csSmall_a00",
+        "drag100b_a00",
+        "gForce_a00",
+        "csMed_a00",
+        "mile2_a00"
+    ],
+    "IT Milan 4": [
+        "drag100_a00",
+        "csMed_a00",
+        "slalomr_a00",
+        "mile1r_a00",
+        "csSmall_a00"
+    ],
+    "IT Milan 5": [
+        "fastr_a00",
+        "tCircuitr_a00",
+        "slalom_a00",
+        "kart_a00",
+        "slalomr_a00"
+    ],
+    "IT Milan 6": [
+        "tCircuit_a00",
+        "csSmall_a00",
+        "slalom_a00",
+        "fast_a00",
+        "mile1_a00"
+    ],
+    "IT Milan 7": [
+        "hairpin_a00",
+        "csSmall_a00",
+        "mile1_a00",
+        "tRoad_a00",
+        "mile4_a00"
+    ],
+    "IT Milan 8": [
+        "testBowlr_a01",
+        "mile4_a01",
+        "mile2_a01",
+        "mile1_a01",
+        "fast_a01"
+    ],
+    "IT Milan 9": [
+        "hairpin_a00",
+        "mile2_a00",
+        "tRoad_a00",
+        "hairpin_a00"
+    ],
+    "IT Milan 10": [
+        "drag100_a00",
+        "testBowl_a00",
+        "drag100b_a01",
+        "slalom_a00",
+        "kart_a00"
+    ],
+    "GER Stuttgart 1": [
+        "mile1_a00",
+        "tRoad_a00",
+        "tRoad_a01",
+        "tRoad_a60",
+        "hairpin_a01"
+    ],
+    "GER Stuttgart 2": [
+        "drag150_a00",
+        "csSmall_a00",
+        "",
+        "",
+        "drag50150_a00"
+    ],
+    "GER Stuttgart 3": [
+        "fast_a00",
+        "kart_a00",
+        "fast_a01",
+        "kart_a01",
+        "mile4_a00"
+    ],
+    "GER Stuttgart 4": [
+        "gForce_a00",
+        "mile1r_a00",
+        "drag100b_a00",
+        "slalom_a00",
+        "drag150_a00"
+    ],
+    "GER Stuttgart 5": [
+        "testBowlr_a01",
+        "slalom_a01",
+        "gForce_a01",
+        "tCircuitr_a00"
+    ],
+    "GER Stuttgart 6": [
+        "tCircuit_a00",
+        "mile4_a00",
+        "tCircuit_a60",
+        "mile4_a60",
+        "tRoad_a01"
+    ],
+    "GER Stuttgart 7": [
+        "slalom_a00",
+        "testBowl_a00",
+        "slalom_a01",
+        "gForce_a01",
+        "drag100b_a01"
+    ],
+    "GER Stuttgart 8": [
+        "hClimb_a00",
+        "hairpin_a00"
+    ],
+    "GER Stuttgart 9": [
+        "drag75125_a00",
+        "slalom_a00",
+        "csMed_a00",
+        "drag120_a00",
+        "csSmall_a00"
+    ],
+    "GER Stuttgart 10": [
+        "tRoad_a00",
+        "slalomr_a00",
+        "gForce_a00",
+        "kart_a00",
+        "tCircuit_a00"
+    ],
+    "UAE Dubai 1": [
+        "hClimb_a50",
+        "mile1_a50",
+        "csMed_a00",
+        "tRoad_a50",
+        "slalom_a50"
+    ],
+    "UAE Dubai 2": [
+        "csSmall_a00",
+        "drag150b_a00",
+        "tRoad_a50"
+    ],
+    "UAE Dubai 3": [
+        "mile1_a00",
+        "csSmall_a00",
+        "slalom_a00",
+        "csMed_a00",
+        "mile1_a00"
+    ],
+    "UAE Dubai 4": [
+        "carPark_a00",
+        "drag170_a00",
+        "gForce_a00",
+        "drag75125_a00"
+    ],
+    "UAE Dubai 5": [
+        "fast_a00",
+        "kart_a00",
+        "testBowl_a00",
+        "gForce_a00",
+        "tCircuit_a00"
+    ],
+    "UAE Dubai 6": [
+        "mile2_a50",
+        "slalom_a50",
+        "fast_a00",
+        "mile1_a00",
+        "slalom_a00"
+    ],
+    "UAE Dubai 7": [
+        "mile4_a00",
+        "csSmall_a00",
+        "drag100b_a00",
+        "csSmall_a50",
+        "mile4_a50"
+    ],
+    "UAE Dubai 8": [
+        "gForce_a50",
+        "mile1_a00",
+        "hClimb_a50"
+    ],
+    "UAE Dubai 9": [
+        "drag170_a00",
+        "carPark_a00",
+        "mile1_a00",
+        "gForce_a50",
+        "mile1_a50"
+    ],
+    "UAE Dubai 10": [
+        "csMed_a00",
+        "drag120_a00",
+        "drag150b_a00",
+        "csSmall_a00",
+        "hClimb_a50"
+    ],
+    "JP Tokyo 1": [
+        "hairpin_a01",
+        "tRoad_a01",
+        "csMed_a01",
+        "gForce_a01",
+        "tCircuit_a01"
+    ],
+    "JP Tokyo 2": [
+        "carPark_a01",
+        "slalom_a01",
+        "kart_a01",
+        "csMed_a00",
+        "slalom_a00"
+    ],
+    "JP Tokyo 3": [
+        "tCircuitr_a00",
+        "testBowlr_a01",
+        "kart_a00",
+        "gForce_a00",
+        "carPark_a00"
+    ],
+    "JP Tokyo 4": [
+        "hairpin_a01",
+        "tRoad_a10",
+        "slalom_a60",
+        "gForce_a60"
+    ],
+    "JP Tokyo 5": [
+        "hairpin_a00",
+        "hairpin_a01",
+        "hairpin_a60",
+        "tRoad_a01",
+        "drag150_a01"
+    ],
+    "JP Tokyo 6": [
+        "csSmall_a00",
+        "carPark_a00",
+        "slalom_a00"
+    ],
+    "JP Tokyo 7": [
+        "csMed_a00",
+        "tRoad_a00",
+        "hairpin_a00",
+        "hairpin_a01",
+        "tRoad_a01"
+    ],
+    "JP Tokyo 8": [
+        "drag30130_a00",
+        "indoorKart_a00",
+        "mile1_a00",
+        "slalom_a00",
+        "drag120_a00"
+    ],
+    "JP Tokyo 9": [
+        "carPark_a00",
+        "csSmall_a00",
+        "mile4_a00",
+        "csMed_a00",
+        "indoorKart_a00"
+    ],
+    "JP Tokyo 10": [
+        "csSmall_a00",
+        "csSmall_a60",
+        "mile1_a60",
+        "csMed_a60",
+        "carPark_a00"
+    ],
+    "USA New York 1": [
+        "drag150_a10",
+        "hClimb_a10",
+        "moto_a10",
+        "mile1_a00",
+        "tRoad_a10"
+    ],
+    "USA New York 2": [
+        "mile4r_a00",
+        "drag150_a00",
+        "gForcer_a00"
+    ],
+    "USA New York 3": [
+        "mile4_a00",
+        "mile2_a00",
+        "carPark_a00"
+    ],
+    "USA New York 4": [
+        "moto_a10",
+        "indoorKart_a00",
+        "mile4_a11",
+        "mile1_a00",
+        "slalom_a11"
+    ],
+    "USA New York 5": [
+        "mile4_a00",
+        "mile2_a00",
+        "mile1_a00",
+        "slalom_a00"
+    ],
+    "USA New York 6": [
+        "csSmall_a00",
+        "slalom_a00",
+        "testBowl_a00",
+        "gForce_a00",
+        "mile4_a00"
+    ],
+    "USA New York 7": [
+        "csMed_a00",
+        "mile1_a00",
+        "csSmall_a00",
+        "moto_a10",
+        "hClimb_a10"
+    ],
+    "USA New York 8": [
+        "mile1_a20",
+        "gForce_a20"
+    ],
+    "USA New York 9": [
+        "tRoad_a10",
+        "mile4_a11",
+        "slalom_a00"
+    ],
+    "USA New York 10": [
+        "tCircuit_a00",
+        "testBowlr_a00",
+        "moto_a10",
+        "testBowl_a10",
+        "tCircuit_a10"
+    ],
+    "MON Monte Carlo 1": [
+        "mnCity_a00",
+        "tCircuit_a00",
+        "fast_a01",
+        "kart_a00"
+    ],
+    "MON Monte Carlo 2": [
+        "mnCityNarrow_a00",
+        "mile4_a00",
+        "mnCity_a00",
+        "mile2_a00"
+    ],
+    "MON Monte Carlo 3": [
+        "rallyMed_a40",
+        "tRoad_a10",
+        "mile1_a00"
+    ],
+    "MON Monte Carlo 4": [
+        "tCircuitr_a00",
+        "kart_a00",
+        "rallySmall_a40",
+        "fastr_a00",
+        "moto_a10"
+    ],
+    "MON Monte Carlo 5": [
+        "tRoad_a00",
+        "mnHairpin_a00",
+        "drag100b_a01",
+        "mnHairpin_a01",
+        "tRoad_a60"
+    ],
+    "MON Monte Carlo 6": [
+        "mnCity_a00",
+        "mnGforce_a00",
+        "mile1_a00"
+    ],
+    "MON Monte Carlo 7": [
+        "tRoad_a60",
+        "hairpin_a01",
+        "tRoad_a00",
+        "mile4_a50",
+        "gForce_a50"
+    ],
+    "MON Monte Carlo 8": [
+        "rallySmall_a40",
+        "kart_a01",
+        "tCircuit_a01",
+        "mile1_a01",
+        "mnHairpin_a01"
+    ],
+    "MON Monte Carlo 9": [
+        "waterDrag_a00",
+        "tCircuitr_a00",
+        "slalom_a00",
+        "hClimb_a10",
+        "fast_a00"
+    ],
+    "MON Monte Carlo 10": [
+        "mile1_a00",
+        "fast_a00",
+        "slalom_a00",
+        "mnHairpin_a40",
+        "mnCityLong_a00"
+    ]
+}

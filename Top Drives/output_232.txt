@@ -1,0 +1,58 @@
+UK Midlands 1     : 12
+UK Midlands 2     : 12
+UK Midlands 3     : 12
+UK Midlands 5     : 12
+UK Midlands 7     : 1
+UK Midlands 7     :  2
+UK Midlands 8     : 12
+UK Midlands 9     : 123
+UK Midlands 10    : 1
+FR Chamonix 1     : 12345
+FR Chamonix 2     : 123 5
+FR Chamonix 5     : 1
+FR Chamonix 7     : 1
+FR Chamonix 8     : 1234
+FR Chamonix 9     : 12345
+FR Chamonix 10    : 12345
+USA West Coast 1  : 12345
+USA West Coast 2  : 12
+USA West Coast 3  : 1234
+USA West Coast 4  : 12345
+USA West Coast 10 : 1
+JP Atsugi 7       : 12345
+GER Bavaria 1     : 12
+GER Bavaria 4     : 1
+GER Bavaria 9     : 1234
+FIN Tykkimaki 2   : 1234
+FIN Tykkimaki 5   : 123
+FIN Tykkimaki 7   : 12345
+FIN Tykkimaki 8   : 1234
+FIN Tykkimaki 9   : 12345
+FIN Tykkimaki 10  : 123
+COL Tatacoa 4     : 12345
+COL Tatacoa 8     : 123 5
+USA Nevada 6      : 12345
+USA Nevada 7      : 12345
+USA Nevada 10     : 1 3 5
+UK London 2       : 1
+UK London 3       : 1
+UK London 4       : 1234
+UK London 9       : 1
+IT Milan 8        : 12345
+GER Stuttgart 2   : 12  5
+UAE Dubai 1       : 1234
+UAE Dubai 6       : 1
+UAE Dubai 7       : 12345
+UAE Dubai 8       : 1
+UAE Dubai 9       : 1
+UAE Dubai 10      : 12
+JP Tokyo 1        : 123
+JP Tokyo 2        : 1
+JP Tokyo 10       : 1234
+USA New York 1    : 12
+MON Monte Carlo 2 : 1
+MON Monte Carlo 3 : 1
+MON Monte Carlo 6 : 12
+MON Monte Carlo 8 : 12345
+MON Monte Carlo 9 : 1
+MON Monte Carlo 10: 1234
