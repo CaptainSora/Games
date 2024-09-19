@@ -23,7 +23,7 @@ FR Chamonix 9     : 12345
  
 https://www.topdrivesrecords.com?share=~KairplaneSlalom_a10~KmnCity_a00~KgForce_a01~KfigureEight_ab0~KgForcer_a00~KtestBowlr_a01~Kdrag100_a01~KgForce_a01~Kmile2_a01~KmnGforce_a01
 FR Chamonix 10    : 12345
-USA West Coast 1  : 12345
+USA West Coast 1  : 12 45
  
 https://www.topdrivesrecords.com?share=~Kkart_a00~KtokyoLoop_a00~KmnCityLong_a00~Kdrag30130_a00~KtokyoOffRamp_a00~KtokyoOverpass_a00
 USA West Coast 2  : 12

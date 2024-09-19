@@ -14,7 +14,7 @@ def value_printout(rewards, state):
 
 def outcomes(nflags, progress, access, season_name):
     # Load saved data
-    with open("Top Drives/flags.json") as f:
+    with open("flags.json") as f:
         flags = load(f)
         try:
             flags = flags[season_name]
@@ -70,7 +70,7 @@ def outcomes(nflags, progress, access, season_name):
 
 # outcomes(273, [0, 0, 0, 0, 0, 5, 5, 0], "Circuit Breakers")
 outcomes(
-    163,
+    103,
     [0, 0, 0, 0, 0, 0, 5, 5, 10],
     [1, 0, 0, 0, 0, 1, 0, 0, 1],
     "Living On The Edge"

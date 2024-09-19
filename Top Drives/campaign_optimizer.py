@@ -193,6 +193,7 @@ def reduction_attempt_3():
         covered_tracks.update(new_tracks)
     
     solution = reorder_solution(campaign, solution)
+    # TODO: Remove duplicate tracks
     optimized_score = score(solution)
     output = print_results(solution)
     print(optimized_score)
