@@ -98,7 +98,7 @@ with st.expander("Edit Rounds", icon=":material/book_ribbon:"):
 
         with chapter:
             st.number_input(
-                "chapter", min_value=1, max_value=8, value=None, step=1,
+                "chapter", min_value=1, max_value=12, value=None, step=1,
                 label_visibility="hidden", placeholder="Chapter",
                 key="chapter_input",
             )
