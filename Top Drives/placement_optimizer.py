@@ -28,7 +28,7 @@ def swap_car(trackset: int, carnum: int) -> None:
 
 def to_emoji(pos):
     row, col = pos
-    padding = "   "
+    padding = "    "
     return padding + emojis[row] + padding
     # return emojis[row] + " Race " + str(col + 1)
 
